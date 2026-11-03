@@ -96,11 +96,7 @@ fn main() {
         disk_used_pct,
     };
     let score = compute_score(&findings);
-    println!(
-        "Efficiency score   : {} / 100 ({})",
-        score,
-        rating(score)
-    );
+    println!("Efficiency score   : {} / 100 ({})", score, rating(score));
     println!("Done.");
 }
 
